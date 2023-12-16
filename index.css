@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(6, 6, 74);
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(35, 18, 86);
+  color: rgb(250, 246, 246);
+  font-family: "Poppins", sans-serif;
+}
+.left {
+  font-size: 1.6rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+nav ul li {
+  list-style: none;
+  margin: 23px;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: #797fc3;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+.firstSectionPart {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 90px;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 50px;
+}
+.myname {
+  padding-top: 20px;
+}
+.leftSide span {
+  color: rgb(145, 143, 234);
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+#element {
+  font-size: 1.8rem;
+  color: rgb(145, 143, 234);
+  font-weight: 300;
+}
+.rightSide img {
+  width: 600px;
+  height: 500px;
+}
+.leftSide a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.leftSide button {
+  margin-top: 30px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(13, 13, 129);
+  background-color: rgb(13, 13, 129);
+}
+.contact-button {
+  margin-left: 15px;
+}
+
+/* Second Section// About me */
+
+.secondSection {
+  border-top: 1px solid #ffffff;
+  margin: 0px 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.aboutMe h1 {
+  font-size: 2.5rem;
+  color: rgb(145, 143, 234);
+  text-align: center;
+  font-weight: 600;
+}
+
+.aboutMe h3 {
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+}
+
+.aboutMe p {
+  color: rgb(181, 175, 175);
+  text-align: center;
+  padding: 0px 50px;
+  padding-top: 40px;
+}
+
+.myJourney h1 {
+  color: rgb(145, 143, 234);
+  padding-top: 40px;
+  font-size: 1.9rem;
+}
+.leftEducation {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.leftEducation h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.leftEdu {
+  padding-top: 10px;
+}
+.leftEdu ul p {
+  color: rgb(181, 175, 175);
+}
+
+
+
+/* third Section myskills */
+
+.thirdSection {
+  border-top: 1px solid #ffffff;
+  margin: 0px 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mySkills h1 {
+  color: rgb(145, 143, 234);
+  padding-top: 40px;
+  font-size: 1.9rem;
+}
+.codingSkills{
+  color: white;
+  /* border: 2px solid black; */
+  width: 45%;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.codingSkills h3{
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.box{
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.box ul{
+  padding-bottom: 15px;
+  color: rgb(181, 175, 175);
+}
+
+.box ul li{
+  padding-bottom: 5px;
+}
+
+.professionalSkills{
+  color: white;
+  /* border: 2px solid black; */
+  width: 45%;
+  margin-left: 50px;
+}
+
+.professionalSkills h3{
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+.skills{
+    display: flex;
+}
+
+#progressbar-1{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-2{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-3{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-4{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-5{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-6{
+  border: 2px solid  rgb(181, 175, 175);
+}
+#progressbar-7{
+  border: 2px solid rgb(181, 175, 175);
+}
+#progressbar-8{
+  border: 2px solid rgb(181, 175, 175);
+}
+#progressbar-9{
+  border: 2px solid rgb(181, 175, 175);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer That is end part  */
+
+/* Footer  */
+
+.ending {
+  background-color: rgb(35, 18, 86);
+  height: max-content;
+  padding-top: 70px;
+  border-bottom: 3px dashed whitesmoke;
+}
+
+.end-head {
+  text-align: center;
+}
+
+.end-head a {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.social-icons {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  color: #ffffff;
+  border: 4px solid rgb(151, 135, 197);
+  width: 55px;
+  margin: 5px;
+  height: 55px;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+  background-color: rgb(35, 18, 86);
+  margin-bottom: 50px;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  transform: translate(0, 0);
+}
+
+.social-icons i:hover {
+  border-color: rgb(35, 18, 86);
+  color: rgb(35, 18, 86);
+  background-color: white;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  z-index: -1;
+  border-radius: 50%;
+  content: "";
+}
+
+
+
+
+
+.ui-widget-header {  
+  background: rgb(221, 129, 54);  
+  border:5px solid #DDDDDD;  
+  color: #333333;  
+  font-weight: bold;  
+}  
